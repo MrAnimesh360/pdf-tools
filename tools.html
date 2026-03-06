@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Tools Workspace</title>
+  <link rel="stylesheet" href="css/tools.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <h1>PDF Tools</h1>
+      <input id="tool-search" type="search" placeholder="Search tools..." />
+      <div class="filters" id="category-filters"></div>
+      <div id="tool-list" class="tool-list"></div>
+    </aside>
+
+    <section class="workspace">
+      <header>
+        <h2 id="tool-title">Select a tool</h2>
+      </header>
+      <div id="drop-zone" class="drop-zone">Drop files here or use file picker in tool options.</div>
+      <div id="status" class="status"></div>
+      <div id="tool-container"></div>
+    </section>
+  </div>
+
+  <script src="lib/pdf-lib.min.js"></script>
+  <script src="lib/pdf.min.js"></script>
+  <script src="lib/jszip.min.js"></script>
+  <script src="js/pdf-engine.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

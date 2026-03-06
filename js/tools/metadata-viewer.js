@@ -1,0 +1,1 @@
+UI.register('metadata-viewer',{render(root){root.innerHTML=`<h3>View Metadata</h3><input id=f type=file accept=application/pdf><button id=go>View</button><pre id=o></pre>`;go.onclick=async()=>{if(!f.files[0])return;o.textContent=JSON.stringify(await PDFEngine.metadata(f.files[0]),null,2);};}});
