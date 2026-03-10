@@ -8,7 +8,7 @@ A professional browser-based PDF toolkit that runs entirely client-side and is d
 
 ## Features
 - 20 implemented tools across Organize, Convert, Edit, Optimize, Security, Utility
-- Dark responsive UI with category filters and tool search
+- Responsive UI with category filters and tool search
 - Drag-and-drop uploads, progress/status messaging, previews, instant downloads
 - Modular architecture: shared engine + lazy-loaded tool modules
 - Client-side processing using `pdf-lib`, `pdf.js`, `JSZip`
